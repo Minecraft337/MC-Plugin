@@ -20,7 +20,8 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.21.11-R0.1-SNAPSHOT")
+    // Use a stable paper version that exists
+    paperweight.paperDevBundle("1.20.6-R0.1-SNAPSHOT")
     implementation 'org.xerial:sqlite-jdbc:3.46.1.3'
 }
 
